@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Bepo VitePress Blog"
   text: "Bepo个人博客"
-  tagline: "🚀Simple, robust and swift.Experience the enhanced VitePress for your blogging needs"
+  tagline: "🚀希望你永远都笑的像一束阳光，你是我的阳光。"
   image:
     src: /logo.png
     alt: VitePress
