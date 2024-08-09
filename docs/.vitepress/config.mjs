@@ -7,11 +7,11 @@ export default defineConfig({
   title: "Bepo Blog",
   titleTemplate: "Blog",
   // 在标签上显示所的 logo
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/bepo.svg" }]],
 
   // 网站描述，有利于被搜索引擎捕获
   description:
-    "zbwer's tech blog: An undergraduate's journey through frontend development, sharing insights, tips, and experiences in web technologies.",
+    "Bepo's tech blog: An undergraduate's journey through frontend development, sharing insights, tips, and experiences in web technologies.",
 
   // md 文件根目录
   // 【谨慎修改】：一旦修改将引起较多变动
@@ -20,13 +20,14 @@ export default defineConfig({
   // 主题自定义
   themeConfig: {
     // 网站左上角 logo
-    logo: "/logo.svg",
+    logo: "/bepo.svg",
     // 顶部导航栏
     nav: [
       { text: "👋 About", link: "/AboutMe.md" },
       { text: "💭 Blogs", link: "/Notes/index" },
       { text: "🦄 Projects", link: "Projects.md" },
       { text: "👫 Friends", link: "Friends.md" },
+      { text: "📚 面经", link: "FaceClassic.md" },
     ],
     // 顶部导航栏左侧的社交平台跳转
     socialLinks: [{ icon: "github", link: "https://github.com/rrym" }],
@@ -66,5 +67,5 @@ export default defineConfig({
       ],
     },
   },
-  lastUpdated: true,
+  lastUpdated: false,
 });

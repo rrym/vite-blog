@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "Bepo VitePress Blog"
-  text: "Bepo个人博客"
+  name: "Bepo Blog"
+  text: "Bepo 个人博客"
   tagline: "🚀希望你永远都笑的像一束阳光，你是我的阳光。"
   image:
-    src: /logo.png
+    src: /logo-bepo.png
     alt: VitePress
   actions:
     - theme: brand
