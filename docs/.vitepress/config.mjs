@@ -27,7 +27,7 @@ export default defineConfig({
       { text: "💭 Blogs", link: "/Notes/index" },
       { text: "🦄 Projects", link: "Projects.md" },
       { text: "👫 Friends", link: "Friends.md" },
-      { text: "📚 面经", link: "FaceClassic.md" },
+      { text: "📚 面经", link: "/InterviewShare/Interviews/index.md" },
     ],
     // 顶部导航栏左侧的社交平台跳转
     socialLinks: [{ icon: "github", link: "https://github.com/rrym" }],
@@ -38,6 +38,7 @@ export default defineConfig({
     // 【文章页面左侧导航】
     sidebar: {
       "/Notes/": getSidebar("/docs/src", "/Notes/"),
+      "/InterviewShare/": getSidebar("/docs/src", "/InterviewShare/"),
     },
     // 文章内导航栏标题
     outlineTitle: "导航栏",

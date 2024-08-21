@@ -1,12 +1,12 @@
 ---
-aside: false
+layout: page
 ---
 
-# 👋 Hi, 很高兴见到你
+<script setup>
 
-将来你会在这里看到我写的一些东西和我的介绍！
+import AboutMe from '../.vitepress/views/AboutMe.vue'
 
 
-放一张**呗波的照片**丰富页面！
+</script>
 
-![](/bepo.jpeg)
+<AboutMe/>
