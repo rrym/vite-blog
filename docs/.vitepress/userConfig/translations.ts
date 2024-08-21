@@ -6,7 +6,11 @@
  * ! 并在该文件中将其名称进行替换。
  */
 export const fileName2Title: Record<string, string> = {
+  Java: "☕️ Java",
+  Service: "🌟 微服务",
+  Vue: "vue",
   Interviews: "🏃 八股面经",
+  Otutorial: "教程",
   Learning: "🎨 学习笔记",
   Thoughts: "🔮 随想杂文",
 };

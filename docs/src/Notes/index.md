@@ -7,13 +7,13 @@ hero:
   subTitle: "📚 欢迎来到我的Blogs"
 
 types:
-  - name: "使用指南"
-    desc: "How to Use"
-    link: "/Notes/0tutorial/quickstart"
+  - name: "Java"
+    desc: "Java天下无敌"
+    link: "/Notes/Java/"
     icon: "✨"
-  - name: "面经分享"
-    desc: "interview experiences"
-    link: "/Notes/Interviews/"
+  - name: "微服务"
+    desc: "What is Use Service Mesh"
+    link: "/Notes/Service/"
     icon: "🏃"
 # flow: true
 ---
