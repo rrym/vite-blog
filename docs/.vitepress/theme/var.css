@@ -41,15 +41,17 @@
 
 /* 主页标题设置, 采用自定义的图片 */
 .main .name {
-  background-image: url("/title.png");
+  /* background-image: url("/title.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
+  line-height: 64px;
+  font-size: 56px;
 }
 
 /* 出于 seo 考虑, 保留原始文字但是将其隐藏 */
 .main .name .clip {
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 /* 移动端适配: 居中显示 */

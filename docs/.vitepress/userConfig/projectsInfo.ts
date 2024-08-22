@@ -12,12 +12,11 @@ interface Project {
  */
 export const projectsInfo: Project[] = [
   {
-    banner: "/project-img/gpt-feishu.png",
-    title: "Feishu&ChatGPT",
-    description:
-      "将 chatGPT 接入飞书对话机器人，支持上下文对话与人格预设，并使用aircode一键部署",
-    link: "https://github.com/ZbWeR/feishu-chatGPT-plus-aircode",
-    tag: "JavaScript",
+    banner: "/project-img/Soybean.png",
+    title: "SoybeanAdmin",
+    description:"SoybeanAdmin清新优雅的中后台模版基于 Vue3,Vite5,TypeScript 和 UnoCSS",
+    link: "https://docs.soybeanjs.cn/zh/",
+    tag: "Vue",
   },
   {
     banner: "/project-img/cloudMusic.png",
@@ -27,12 +26,12 @@ export const projectsInfo: Project[] = [
     tag: "Vue",
   },
   {
-    banner: "/project-img/analyze-tool.png",
-    title: "Npm Analyze-tool",
+    banner: "/project-img/NaiveUI.png",
+    title: "Naive UI",
     description:
-      "一款用于可视化分析项目依赖关系的命令行工（第六届字节跳动前端青训大项目三等奖）",
-    link: "https://github.com/jonlyes/packageResolution",
-    tag: "TypeScript",
+      "一个 Vue 3 组件库比较完整，主题可调，使用 TypeScript，快有点意思",
+    link: "https://www.naiveui.com/zh-CN/os-theme",
+    tag: "组件库",
   },
   {
     banner: "/project-img/dora-bot.png",
