@@ -7,6 +7,7 @@
  */
 export const fileName2Title: Record<string, string> = {
   Java: "☕️ Java",
+  MySQL: "📕 MySQL",
   Service: "🌟 微服务",
   Vue: "vue",
   Interviews: "🏃 八股面经",

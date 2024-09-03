@@ -11,7 +11,7 @@ export default defineConfig({
 
   // 网站描述，有利于被搜索引擎捕获
   description:
-    "Bepo's tech blog: An undergraduate's journey through frontend development, sharing insights, tips, and experiences in web technologies.",
+    "Bepo's tech blog: An undergraduate's journey through backend development, sharing insights, tips, and experiences in web technologies.",
 
   // md 文件根目录
   // 【谨慎修改】：一旦修改将引起较多变动

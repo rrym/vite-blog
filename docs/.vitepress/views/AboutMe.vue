@@ -101,17 +101,30 @@
           <div class="mt-2 overflow-hidden">
             <!-- TODO:封装ICON组件,抽离背景颜色与svg地址 -->
             <div class="flex gap-4 w-fit icon-scroll">
-              <div
-                class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-emerald-200"
-              >
-                <img src="./img/vue.svg" alt="vue.js" />
+            
+              <div class="flex-shrink-0 w-20 h-20 p-4 bg-slate-100 rounded-lg">
+                <img src="./img/java.svg" alt="" />
               </div>
+
+              <div class="flex-shrink-0 w-20 h-20 p-4 bg-green-200 rounded-lg">
+                <img src="./img/spring.svg" alt="" />
+              </div>
+
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-red-400 rounded-lg" >
+                <img class="rounded-lg" src="./img/git.svg" alt="" />
+              </div>
+
               <div class="flex-shrink-0 w-20 h-20 p-4 bg-red-200 rounded-lg">
                 <img src="./img/html.svg" alt="" />
               </div>
               <div class="flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-sky-200">
                 <img src="./img/css.svg" alt="" />
               </div>
+
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-emerald-200">
+                <img src="./img/vue.svg" alt="vue.js" />
+              </div>
+
               <div
                 class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-slate-200"
               >
@@ -122,11 +135,7 @@
               >
                 <img class="rounded-lg" src="./img/js.webp" alt="" />
               </div>
-              <div
-                class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-red-400 rounded-lg"
-              >
-                <img class="rounded-lg" src="./img/git.svg" alt="" />
-              </div>
+        
               <div
                 class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-slate-200"
               >
@@ -142,14 +151,11 @@
               >
                 <img class="rounded-lg" src="./img/eslint.svg" alt="" />
               </div>
-              <div
-                class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-emerald-200"
-              >
-                <img src="./img/vue.svg" alt="vue.js" />
-              </div>
+
               <div class="flex-shrink-0 w-20 h-20 p-4 bg-red-200 rounded-lg">
                 <img src="./img/html.svg" alt="" />
               </div>
+              
               <div class="flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-sky-200">
                 <img src="./img/css.svg" alt="" />
               </div>
